@@ -19,26 +19,26 @@ from pyrogram.types import *
 
 Bot = Client(
     "Calculator Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["BOT_TOKEN", "5894485189:AAHKL7pEKVdVWa9OEaBlJ-wqb27xB251rl8"],
+    api_id = int(os.environ["API_ID", "16246834"]),
+    api_hash = os.environ["API_HASH", "29b3ffa9245c07f05375b92f38e8f13d"]
 )
 
 
 START_TEXT = """
-Hello {}, I am Telegram [Calculator-Bot](https://Github.com/ZauteKm/Calculator-Bot).
+Hello {}, I am Telegram [Calculator-Bot](https://Github.com/virtualunionsex/Calculator-Bot).
 
 ▷ Send me /calculator and See my Magic.
 
-Made with by ❤️ [@ZauteKm](https://t.me/ZauteKm/604)
+Made with by ❤️ [@azure_id](https://t.me/nakama_asl/604)
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🔥 Source Code', url='https://github.com/ZauteKm/Calculator-Bot'),
-        InlineKeyboardButton('Channel 📢', url='https://t.me/JOSProjects/152')
+        InlineKeyboardButton('🔥 Source Code', url='https://github.com/virtualunionsex/Calculator-Bot'),
+        InlineKeyboardButton('Channel 📢', url='https://t.me/nakama_asl/152')
         ]]
     )
-CALCULATE_TEXT = "▷ Made with by @ZauteKm"
+CALCULATE_TEXT = "▷ Made with by @azure_id"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("DEL", callback_data="DEL"),
