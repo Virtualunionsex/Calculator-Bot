@@ -19,7 +19,7 @@ from pyrogram.types import *
 
 Bot = Client(
     "Calculator Bot",
-    bot_token = os.environ["5894485189:AAHKL7pEKVdVWa9OEaBlJ-wqb27xB251rl8"],
+    bot_token = os.environ["5702366946:AAEB0lDpLtT7CCdj46Z48KVQR0A8POXbYAw"],
     api_id = int(os.environ["16246834"]),
     api_hash = os.environ["29b3ffa9245c07f05375b92f38e8f13d"]
 )
